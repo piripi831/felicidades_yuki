@@ -1,0 +1,246 @@
+body {
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(#E6D5ED, #F7DFF0);
+}
+
+/*CSS para la imagen del contenedor hero*/
+#Hero-img {
+  padding: 200px;
+  background-image: url("../imgs/maincra.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  margin: 0px;
+}
+
+/*CSS para el H1 del contenedor hero*/
+#Hero-text {
+  padding-top: 50px;
+  color: rgb(234, 186, 247);
+  text-shadow: 2px 2px purple;
+  text-align: center;
+  font-size: 90px;
+  align-items: center;
+  font-family: "Sofia";
+}
+
+#Gato {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
+
+#Subtitulo {
+  color: rgb(234, 186, 247);
+  text-shadow: 2px 2px purple;
+  text-align: center;
+  font-family: "Sofia";
+  font-size: 30px;
+}
+
+
+/*CSS para los H2*/
+h2 {
+  margin: 0px;
+  text-align: center;
+  text-shadow: 1px 1px purple;
+  font-size: 50px;
+  font-family: "Sofia";
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+h3 {
+  margin: 5px;
+  /* Pequeña diferencia en el margen */
+  text-align: center;
+  text-shadow: 2px 2px rgb(218, 172, 231);
+  /* Sombra más pronunciada y de otro color */
+  font-size: 35px;
+  /* Un poco más pequeño que el h2 */
+  font-family: "Playfair Display", serif;
+  /* Mantiene la misma fuente */
+  padding-bottom: 15px;
+  /* Ajustes de espaciado */
+  padding-top: 15px;
+  font-weight: bold;
+  /* Hace que resalte un poco más */
+  color: rgb(99, 99, 99);
+  /* Color de texto diferente */
+}
+
+
+ul {
+  list-style-type: none;
+  /* Elimina los puntos predeterminados de la lista */
+  padding-left: 20px;
+  /* Ajusta el espaciado de la lista según lo necesites */
+}
+
+ul li {
+  background-image: url("../imgs/pikmin.gif");
+  /* Ruta a tu imagen */
+  background-size: 30px 30px;
+  /* Ajusta el tamaño de la imagen aquí */
+  background-repeat: no-repeat;
+  /* Evita que la imagen se repita */
+  padding-left: 30px;
+  /* Ajusta el espaciado para dejar espacio a la imagen */
+  margin-bottom: 10px;
+  /* Espacio entre elementos */
+}
+
+footer {
+  text-align: center;
+  background-color: #F2F2F2;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+#footer-text {
+  padding-top: 20px;
+  font-family: Playfair Display;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#Vídeo {
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  display: flex;
+}
+
+#Galería {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: plum;
+  text-align: center;
+}
+
+.galeria {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 350px;
+  height: 350px;
+}
+
+.galeria:hover {
+  box-shadow: 0 0 2px 1px purple;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Individual card styling */
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+/* Hover effect for cards */
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Card content */
+.card-image img {
+  width: 100%;
+  height: 440px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+  align-items: center;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#Section1 {
+  display: grid;
+  grid-column: auto auto auto;
+}
+
+#Section2 {
+  display: grid;
+  grid-column: auto auto;
+}
+#Section4 {
+  display: grid;
+  grid-column: auto;
+  text-align: center;
+}
+
+div.polaroid {
+  width: 35%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.polaroid.img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  /* Centra el contenido */
+  gap: 20px;
+  flex-wrap: wrap;
+  /* Para que sea responsivo */
+  padding: 20px;
+}
+.boton {
+  display: inline-block;
+  background-color: #ff69b4; /* Rosa */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+  border: none;
+}
+.boton:hover {
+  background-color: #d8579a; /* Un tono más oscuro al pasar el cursor */
+}
